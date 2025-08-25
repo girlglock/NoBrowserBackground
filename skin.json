@@ -1,0 +1,31 @@
+{
+    "name": "NoBrowserBackground",
+    "author": "girlglock",
+    "description": "Removes the background from the steam overlay browser allowing to display transparent pngs and html elements over the game",
+    "source": "https://github.com/girlglock/NoBrowserBackground", 
+    "version": "0",
+    "header_image": "https://raw.githubusercontent.com/MapleAtMorning/MapleAtMorning/main/steamui.png",
+    "splash_image": "https://raw.githubusercontent.com/MapleAtMorning/MapleAtMorning/main/steamui.png",
+
+    "github": {
+        "owner": "girlglock",
+        "repo_name": "NoBrowserBackground"
+    },
+
+    "discord_support": {
+        "inviteCodeExcludingLink": "0000000000"
+    },
+
+    "tags": [
+        "overlay",
+        "browser"
+    ],
+
+    "UseDefaultPatches": true,
+    "Patches": [
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "libraryroot.custom.css"
+        }
+    ]
+}
